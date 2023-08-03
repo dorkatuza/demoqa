@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa"
+      ],
+      "~/*": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/*"
+      ],
+      "@": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa"
+      ],
+      "@/*": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/*"
+      ],
+      "~~": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa"
+      ],
+      "~~/*": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/*"
+      ],
+      "@@": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa"
+      ],
+      "@@/*": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/*"
+      ],
+      "assets": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/assets"
+      ],
+      "public": [
+        "C:/Users/Dorottya_Pecsi/source/demoqa/public"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/Dorottya_Pecsi/source/demoqa/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
